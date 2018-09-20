@@ -1,3 +1,2 @@
 # from galaxy
-- src: yatesr.timezone
-
+- src: geerlingguy.docker

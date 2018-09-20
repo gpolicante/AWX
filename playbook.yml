@@ -1,0 +1,5 @@
+---
+- name: AWX
+  hosts: all
+  roles:
+    - geerlingguy.docker
