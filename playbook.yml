@@ -9,6 +9,6 @@
         - java-1.8.0
         - https://repo.rundeck.org/latest.rpm
         - rundeck
-     - service:
-         name: rundeckd 
-         state: running
+    - service:
+        name: rundeckd  
+        state: running
