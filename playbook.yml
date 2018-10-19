@@ -2,4 +2,4 @@
 - name: AWX
   hosts: all
   roles:
-    - cloudalchemy.node-exporter
+    - cloudalchemy.ansible-prometheus
