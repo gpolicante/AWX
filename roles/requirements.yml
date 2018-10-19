@@ -1,2 +1,2 @@
 # from galaxy
-- src: ansible-prometheus
+- src: cloudalchemy.ansible-prometheus
