@@ -1,16 +1,5 @@
 ---
 - name: AWX
   hosts: all
-  tasks:
-    - yum:
-        name: https://repo.rundeck.org/latest.rpm
-        state: present
-    - yum:
-        name: "{{ item }}"
-        state: present
-      with_items:
-        - java-1.8.0
-        - rundeck
-    - service:
-        name: rundeckd  
-        state: started
+  roles:
+    - cloudalchemy.node-exporter
