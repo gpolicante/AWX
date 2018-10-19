@@ -2,4 +2,4 @@
 - name: AWX
   hosts: all
   roles:
-    - cloudalchemy.ansible-prometheus
+    - ansible-prometheus
