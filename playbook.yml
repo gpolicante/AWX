@@ -13,4 +13,4 @@
         - rundeck
     - service:
         name: rundeckd  
-        state: running
+        state: started
