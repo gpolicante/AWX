@@ -1,2 +1,2 @@
 # from galaxy
-- src: cloudalchemy.prometheus
+- src: cloudalchemy.node-exporter
